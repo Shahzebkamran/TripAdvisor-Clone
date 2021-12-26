@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TripAdvisor">
         <activity
+            android:name=".ui.loginDetail"
+            android:exported="true" />
+        <activity
+            android:name=".login"
+            android:exported="true" />
+        <activity
             android:name=".restraunts"
             android:exported="true" />
         <activity

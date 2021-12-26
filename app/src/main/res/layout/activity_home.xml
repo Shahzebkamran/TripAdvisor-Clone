@@ -87,7 +87,6 @@
                     android:text="Hotels"
                     android:textColor="#000000"
                     android:textSize="16sp"
-
                     />
 
                 <Button
@@ -100,6 +99,7 @@
                     android:backgroundTint="@color/white"
                     android:drawableLeft="@drawable/ic_baseline_restaurant_24"
                     android:text="Restraunts"
+                    android:id="@+id/restrauntBtn"
                     android:textColor="#000000"
                     android:textSize="16sp" />
 

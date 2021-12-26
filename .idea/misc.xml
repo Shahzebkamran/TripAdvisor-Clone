@@ -4,16 +4,22 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/banner.xml" value="0.1109375" />
+        <entry key="app/src/main/res/drawable/button.xml" value="0.10416666666666667" />
         <entry key="app/src/main/res/drawable/button_cards.xml" value="0.21770833333333334" />
         <entry key="app/src/main/res/drawable/circular_shape.xml" value="0.18333333333333332" />
         <entry key="app/src/main/res/drawable/custom_btn.xml" value="0.11197916666666667" />
+        <entry key="app/src/main/res/drawable/forget.xml" value="0.10416666666666667" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_hotel.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_hotel_details.xml" value="0.2015625" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_login_detail.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18854166666666666" />
-        <entry key="app/src/main/res/layout/activity_restraunts.xml" value="0.2015625" />
+        <entry key="app/src/main/res/layout/activity_restraunts.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.18854166666666666" />
         <entry key="app/src/main/res/layout/home.xml" value="0.19948717948717948" />
+        <entry key="app/src/main/res/layout/login.xml" value="0.11" />
+        <entry key="app/src/main/res/layout/register.xml" value="0.25" />
       </map>
     </option>
   </component>

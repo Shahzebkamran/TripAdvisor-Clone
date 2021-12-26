@@ -16,12 +16,18 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         Button Hotel2 = findViewById(R.id.hotels);
+        Button restaurant = findViewById(R.id.restrauntBtn);
         Hotel2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                System.out.println("Clicked");
-                Toast.makeText(Home.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(Home.this,Hotel.class);
+                startActivity(intent);
+            }
+        });
+        restaurant.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Home.this,restraunts.class);
                 startActivity(intent);
             }
         });

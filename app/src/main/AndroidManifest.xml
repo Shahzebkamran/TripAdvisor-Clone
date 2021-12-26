@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TripAdvisor">
         <activity
+            android:name=".restraunts"
+            android:exported="true" />
+        <activity
             android:name=".hotel_details"
             android:exported="true" />
         <activity

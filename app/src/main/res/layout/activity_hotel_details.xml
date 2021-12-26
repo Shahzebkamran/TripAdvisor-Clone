@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hotel_details">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/bannerImage"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:background="@drawable/hotel5"
+        >
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bannerImage"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lampa Design Hostel"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/black"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="#205 of 443 hotels in"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/black"
+            ></TextView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Deal"
+            android:layout_marginTop="30dp"
+            android:elevation="10dp"
+            android:textColor="@color/black"
+            android:background="@drawable/custom_btn"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textSize="22dp"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/black"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="Enter Hotel Smuggler, Manali’s leading accommodation and the first-ever theme-based hotel in India! Conveniently located near DPS School in Village Nasogi, Manali, our Pirates of the Caribbean theme is a trending buzz amongst tourists, holiday-goers and adventurers alike. As one of the leading hotels in Manali, we offer breath-taking views of the entire city. Enjoy the area’s relaxing environment and capture the snow-capped Rohtang Pass, Hampta Pass and Pandu Ropa Mountains from your room"
+            android:textColor="@color/black"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amenities"
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/black"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Free Parking"
+            android:layout_marginTop="5dp"
+            android:textSize="16dp"
+            android:textStyle="normal"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/black"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Free Breakfast"
+            android:layout_marginTop="5dp"
+            android:textSize="16dp"
+            android:textStyle="normal"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/black"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Free WIFI"
+            android:layout_marginTop="5dp"
+            android:textSize="16dp"
+            android:textStyle="normal"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/black"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The area"
+            android:textSize="22dp"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/black"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:layout_marginTop="5dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Village Nasogi Near DPS School, Manali, Manali Tehsil 175131 India"
+            android:layout_marginTop="5dp"
+            android:textSize="16dp"
+            android:textStyle="normal"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to get there?"
+            android:layout_marginTop="5dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Airport ● 8.17 km"
+            android:layout_marginTop="5dp"
+            android:textSize="16dp"
+            android:textStyle="normal"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

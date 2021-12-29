@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "473719066764",
+    "project_id": "tripadvisor-e15c3",
+    "storage_bucket": "tripadvisor-e15c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473719066764:android:27a6fc451273dec4202ba9",
+        "android_client_info": {
+          "package_name": "com.example.tripadvisor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473719066764-taikq0no4cjt9s4uupqa9cpi4me1ga5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWrX2GY-1wtNTRPdEzQy-UmpDHGeTpKCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473719066764-taikq0no4cjt9s4uupqa9cpi4me1ga5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
